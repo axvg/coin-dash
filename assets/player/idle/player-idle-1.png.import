@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/coin-frame-4.png-5821644118296270f53940da6f2ecb70.stex"
+path="res://.import/player-idle-1.png-950146e0432e98ccfacde5fcd2c12696.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/coin/coin-frame-4.png"
-dest_files=[ "res://.import/coin-frame-4.png-5821644118296270f53940da6f2ecb70.stex" ]
+source_file="res://assets/player/idle/player-idle-1.png"
+dest_files=[ "res://.import/player-idle-1.png-950146e0432e98ccfacde5fcd2c12696.stex" ]
 
 [params]
 

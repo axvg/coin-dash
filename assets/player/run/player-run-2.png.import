@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/coin-frame-3.png-510d2b12ad9b927a50dfd5d8b18f950c.stex"
+path="res://.import/player-run-2.png-63a769098db2c7a7bcf1b46e6cd03038.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/coin/coin-frame-3.png"
-dest_files=[ "res://.import/coin-frame-3.png-510d2b12ad9b927a50dfd5d8b18f950c.stex" ]
+source_file="res://assets/player/run/player-run-2.png"
+dest_files=[ "res://.import/player-run-2.png-63a769098db2c7a7bcf1b46e6cd03038.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/coin-frame-7.png-2a5ddd16a05363b49afb3b0085fa5ff0.stex"
+path="res://.import/player-hurt-2.png-163328f7b1e86a0ac86e231fd1b8967e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/coin/coin-frame-7.png"
-dest_files=[ "res://.import/coin-frame-7.png-2a5ddd16a05363b49afb3b0085fa5ff0.stex" ]
+source_file="res://assets/player/hurt/player-hurt-2.png"
+dest_files=[ "res://.import/player-hurt-2.png-163328f7b1e86a0ac86e231fd1b8967e.stex" ]
 
 [params]
 
