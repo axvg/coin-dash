@@ -53,9 +53,7 @@ jobs:
       - name: Web Build
         run: |
           mkdir -v -p build/web
-          ls
-          cd $PROJECT_PATH
-          godot -v --export "HTML5" ../build/web/index.html
+          godot -v --export "HTML5" ./build/web/index.html
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         with:
@@ -88,7 +86,7 @@ jobs:
         run: mkdir -v -p build/web
 
       - name: Build
-        run: godot -v --export "HTML5" ../build/web/index.html project/project.godot
+        run: godot -v --export "HTML5" ./build/web/index.html project/project.godot
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
