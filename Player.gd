@@ -8,6 +8,15 @@ func _init():
 	position.x = 240
 	position.y = 360
 
+func start(pos):
+	set_process(true)
+	position = pos
+	$AnimatedSprite.animation = "idle"
+
+func die():
+	$AnimatedSprite.animation = "hurt"
+	set_process(false)
+
 func get_input():
 	velocity = Vector2()
 	if Input.is_action_pressed("ui_left"):
@@ -20,6 +29,10 @@ func get_input():
 		velocity.y += 1
 	if velocity.length() > 0:
 		velocity = velocity.normalized() * speed
+		$AnimatedSprite.animation = "run"
+		$AnimatedSprite.flip_h = velocity.x < 0
+	else:
+		$AnimatedSprite.animation = "idle"
 
 func _process(delta):
 	get_input()
