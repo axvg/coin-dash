@@ -4,6 +4,10 @@ export (int) var speed
 var velocity = Vector2()
 var screensize = Vector2(480, 720)
 
+func _init():
+	position.x = 240
+	position.y = 360
+
 func get_input():
 	velocity = Vector2()
 	if Input.is_action_pressed("ui_left"):
@@ -22,4 +26,3 @@ func _process(delta):
 	position += velocity * delta
 	position.x = clamp(position.x, 0, screensize.x)
 	position.y = clamp(position.y, 0, screensize.y)
-	print('test')
