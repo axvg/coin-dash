@@ -4,4 +4,3 @@ var screensize = Vector2()
 
 func pickup():
 	queue_free()
-
