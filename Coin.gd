@@ -15,6 +15,8 @@ func _ready():
 								0.3,
 								Tween.TRANS_QUAD,
 								Tween.EASE_IN_OUT)
+	$Timer.wait_time = rand_range(3, 8)
+	$Timer.start()
 
 func pickup():
 	monitoring = false
@@ -27,3 +29,7 @@ func _on_Tween_tween_completed(object, key):
 func _on_Coin_area_entered(area):
 	if area.is_in_group('obstacles'):
 		position = Vector2(rand_range(0, screensize.x), rand_range(0, screensize.y))
+
+func _on_Timer_timeout():
+	$AnimatedSprite.frame = 0
+	$AnimatedSprite.play()
