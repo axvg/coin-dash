@@ -6,10 +6,6 @@ export (int) var speed
 var velocity = Vector2()
 var screensize = Vector2(480, 720)
 
-func _init():
-	position.x = 240
-	position.y = 360
-
 func start(pos):
 	set_process(true)
 	position = pos

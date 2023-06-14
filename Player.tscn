@@ -44,7 +44,7 @@ speed = 350
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 1 )
 animation = "run"
-frame = 4
+frame = 2
 playing = true
 offset = Vector2( 0, -5 )
 
