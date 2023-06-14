@@ -47,6 +47,8 @@ func game_over():
 
 func spawn_coins():
 	$LevelSound.play()
+	$Cactus.position = Vector2(rand_range(0, screensize.x / 2), rand_range(0, screensize.y / 2))
+	$Cactus.show()
 	for i in range(4 + level):
 		var c = Coin.instance()
 		$CoinContainer.add_child(c)
